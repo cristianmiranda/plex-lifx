@@ -46,7 +46,7 @@ def monitor(config):
                 lifx.set_state(light_id, 'off', None, 0, None)
                 dimmed = True
 
-            elif state == 'paused' and dimmed:
+            elif dimmed:
                 
                 logger.info("PAUSED - Dimming till 0.5 light bulb {light_id}".format(light_id=light_id))
                 lifx.set_state(light_id, 'on', None, 0.5, None)
