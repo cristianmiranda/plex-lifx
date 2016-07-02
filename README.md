@@ -3,6 +3,8 @@ Plex LIFX
 
 **plex-lifx** dims your LIFX light bulb when Plex starts playing. It'll set brightness to 50% when paused and restores original bright when stopped.
 
+See it in action: https://youtu.be/S_Jn5HDuxLU
+
 A few points:
 
 * plex-lifx is an out of process tool. Meaning it is not a Plex Media Server plug-in. This tool runs separately of your Plex Media Server.
